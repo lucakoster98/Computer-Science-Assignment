@@ -15,7 +15,7 @@ This project focuses on detecting duplicate products in e-commerce datasets, uti
 
 ## Usage
 
-Ensure you have Python with pandas, numpy, matplotlib, sklearn, and re libraries installed. Update the `file_path` variable with your dataset path. To Run the script to execute preprocessing, feature extraction, similarity calculations, LSH, clustering, and evaluation. The scipt is currently set to do five bootstraps iterations, and in addition also loops over different amounts of rows per band used for LSH. These iterations will eventually be shown in a plot. However, because both the bootstrap loops are active and the loops over r, the total running time is really long.
+Ensure you have Python with pandas, numpy, matplotlib, sklearn, and re libraries installed. Update the `file_path` variable with your dataset path. To Run the script to execute preprocessing, feature extraction, similarity calculations, LSH, clustering, and evaluation. The script is currently set to do five bootstraps iterations, and in addition also loops over different amounts of rows per band used for LSH. These iterations will eventually be shown in a plot. However, because both the bootstrap loops are active and the loops over r, the total running time is really long.
 
 ## Dependencies
 
