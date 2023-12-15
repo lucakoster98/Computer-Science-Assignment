@@ -398,7 +398,7 @@ for i in range(bootstrap_iterations):
             brand2 = dataframe.at[index2, 'brand']
             if brand1 and brand2 and brand1 != brand2:
                 return False
-            # the next line has to be uncommented one if you does no want to filter on titleMIDs
+            # the next line has to be uncommented if one does no want to filter on titleMIDs
             #return True 
         
             # Exclude pairs with different titleMIDs, these last 7 lines of code can be commented out if one desires not to filter on titleMIDs
