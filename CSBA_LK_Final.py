@@ -334,9 +334,7 @@ for i in range(bootstrap_iterations):
     
     # %%
     
-    # This following line has to be uncommented if the one desires to make the plots
-    #different_values_r = [1,2,3,4,5,6,8,10,14,18,24,28,36]
-    different_values_r = [3,4,5,6,8,10,14,18,24,28,36]
+    different_values_r = [1,2,3,4,5,6,8,10,14,18,24,28,36]
     # Define the number of hash functions (n) and similarity threshold (t)
     n = len(binary_vectors)
     for i in different_values_r:
