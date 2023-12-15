@@ -1,4 +1,4 @@
-# Duplicate Product Detection in E-Commerce
+# Duplicate Product Detection for Web Shop Products
 
 This project focuses on detecting duplicate products in e-commerce datasets, utilizing various data cleaning, feature extraction, and similarity comparison techniques to identify duplicates among a large collection of products.
 
